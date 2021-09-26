@@ -31,7 +31,7 @@ header {
           animation: moveSlideshow 12s linear infinite;
 }
 .tech-slideshow .mover-2 {
-  opacity: 0;
+  opacity: 0.5;
   transition: opacity 0.5s ease-out;
   background-position: 0 -200px;
   -webkit-animation: moveSlideshow 15s linear infinite;
