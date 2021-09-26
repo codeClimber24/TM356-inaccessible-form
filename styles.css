@@ -54,6 +54,10 @@ header {
   }
 }
 
+main {
+  text-align: center;
+}
+
 a {
   color: lightblue;
 }
