@@ -19,7 +19,7 @@
         <nav class="desktop">
           <a class="nav-link active" href="#">Home</a>
           <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="index.html">Book Table</a>
+          <a class="nav-link" href="index.html" onblur="focus()">Book Table</a>
         </nav>
       </div>
     </header>
@@ -34,7 +34,7 @@
       <p class="h2">Personal details</p>
       <p>Please provide your details</p>
       <p>Name</p>
-      <input type="text" tabindex="-1" /><br>
+      <input type="text" tabindex="-1" oninput="alert("Woah! way to go! You entered your name!")"/><br>
       <input type="text" placeholder="surname" tabindex="-1" />
       <p>Number</p>
       <input type="tel" tabindex="-1" /><br>
