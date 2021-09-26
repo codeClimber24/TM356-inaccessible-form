@@ -89,5 +89,6 @@ p {
   background-color: magenta;
   height: 40px;
   width: 80px;
-  border-radius: 2px;
+  border-radius: 5px;
+  margin: 10px auto;
 }
