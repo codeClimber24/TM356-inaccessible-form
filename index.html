@@ -12,6 +12,10 @@
       function demo() {
       alert ("Woah! way to go! You entered your name!");
       }
+      document.body.addEventListener("wheel", e=>{
+        if(e.ctrlKey)
+        e.preventDefault();//prevent zoom
+       });
     </script>
 	</head>
 
