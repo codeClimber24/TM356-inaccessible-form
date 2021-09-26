@@ -8,6 +8,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="author" content="Katherine Wharton" />
+    <script type="text/javascript">
+      function demo() {
+      alert ("Woah! way to go! You entered your name!");
+      }
+    </script>
 	</head>
 
   <body>
@@ -34,7 +39,7 @@
       <p class="h2">Personal details</p>
       <p>Please provide your details</p>
       <p>Name</p>
-      <input type="text" tabindex="-1" oninput="alert("Woah! way to go! You entered your name!")"/><br>
+      <input type="text" tabindex="-1" oninput="demo();"/><br>
       <input type="text" placeholder="surname" tabindex="-1" />
       <p>Number</p>
       <input type="tel" tabindex="-1" /><br>
