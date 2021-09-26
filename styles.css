@@ -7,8 +7,12 @@ header {
   text-align: center;
 }
 
+a {
+  color: lightblue;
+}
+
 p {
-  color: grey;
+  color: lightgrey;
 }
 
 .h1 {
