@@ -1,0 +1,12 @@
+html {
+  font-family: sans-serif;
+}
+
+p {
+  color: grey;
+}
+
+.h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
